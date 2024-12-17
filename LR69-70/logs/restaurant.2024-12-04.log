@@ -1,0 +1,488 @@
+2024-12-04 01:15:13.318 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:15:13.341 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:15:13.377 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:15:13.389 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 01:15:13.397 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:15:13.402 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:15:13.404 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:16:10.160 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 01:16:10.243 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 0b5b6f7e-beab-4ccf-837a-e716c614bc05 создан и отправлен на проверку
+2024-12-04 01:17:14.168 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиенты доступны для tea: 2.0 pcs
+2024-12-04 01:17:14.169 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: INGREDIENTS_AVAILABLE:tea
+2024-12-04 01:19:43.654 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: INGREDIENTS_AVAILABLE:tea
+2024-12-04 01:20:10.681 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: INGREDIENTS_AVAILABLE:tea
+2024-12-04 01:21:00.163 [Cook1] INFO  ru.restaurant.agents.CookAgent - Starting to cook order d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:21:00.164 [Thread-20] INFO  ru.restaurant.agents.CookAgent - Cooking order d1748c0b-1e7a-4445-a874-5c9945a006d1 started
+2024-12-04 01:21:05.178 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_READY:d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:21:05.178 [Thread-20] INFO  ru.restaurant.agents.CookAgent - Order d1748c0b-1e7a-4445-a874-5c9945a006d1 is ready
+2024-12-04 01:22:10.283 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Starting to use equipment for order d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:22:13.298 [Thread-21] INFO  ru.restaurant.agents.EquipmentAgent - Equipment finished working on order d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:22:13.299 [Thread-22] INFO  ru.restaurant.agents.CookAgent - Cooking order d1748c0b-1e7a-4445-a874-5c9945a006d1 started
+2024-12-04 01:22:18.308 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_READY:d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:22:18.308 [Thread-22] INFO  ru.restaurant.agents.CookAgent - Order d1748c0b-1e7a-4445-a874-5c9945a006d1 is ready
+2024-12-04 01:23:20.290 [Thread-23] INFO  ru.restaurant.agents.CookAgent - Cooking order d1748c0b-1e7a-4445-a874-5c9945a006d1 started
+2024-12-04 01:23:25.292 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_READY:d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:23:25.292 [Thread-23] INFO  ru.restaurant.agents.CookAgent - Order d1748c0b-1e7a-4445-a874-5c9945a006d1 is ready
+2024-12-04 01:24:09.250 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_READY:d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:25:13.752 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Order d1748c0b-1e7a-4445-a874-5c9945a006d1 is ready for pickup
+2024-12-04 01:25:13.754 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_RECEIVED:d1748c0b-1e7a-4445-a874-5c9945a006d1
+2024-12-04 01:32:26.900 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:32:26.996 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 01:32:27.007 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:32:27.012 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Found warehouse: Warehouse
+2024-12-04 01:32:27.012 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:32:27.029 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:32:27.032 [Cook1] INFO  ru.restaurant.agents.CookAgent - Found equipment: Equipment1
+2024-12-04 01:32:27.032 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:32:27.034 [Cook2] INFO  ru.restaurant.agents.CookAgent - Found equipment: Equipment1
+2024-12-04 01:32:27.035 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-04 01:34:24.685 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 01:34:24.767 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ be5e3e87-aafe-4ae1-88a2-99d5d19ce40c создан и отправлен на проверку
+2024-12-04 01:34:24.769 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиенты доступны для tea: 2.0 pcs
+2024-12-04 01:34:24.770 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: INGREDIENTS_AVAILABLE:tea
+2024-12-04 01:34:24.774 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c assigned to cook Cook1
+2024-12-04 01:34:24.775 [Cook1] INFO  ru.restaurant.agents.CookAgent - Starting to cook order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c
+2024-12-04 01:34:24.781 [Cook1] INFO  ru.restaurant.agents.CookAgent - Requested equipment for order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c
+2024-12-04 01:34:24.781 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Starting to use equipment for order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c
+2024-12-04 01:34:27.785 [Thread-20] INFO  ru.restaurant.agents.EquipmentAgent - Equipment finished working on order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c
+2024-12-04 01:34:27.787 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Cooking order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c started
+2024-12-04 01:34:32.799 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c is ready
+2024-12-04 01:34:32.799 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_READY:be5e3e87-aafe-4ae1-88a2-99d5d19ce40c
+2024-12-04 01:34:32.799 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c is ready and visitor has been notified
+2024-12-04 01:34:32.799 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c is ready for pickup
+2024-12-04 01:34:32.800 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_RECEIVED:be5e3e87-aafe-4ae1-88a2-99d5d19ce40c
+2024-12-04 01:34:32.800 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Order be5e3e87-aafe-4ae1-88a2-99d5d19ce40c has been received by visitor
+2024-12-04 02:42:00.868 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 02:42:01.105 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-04 02:42:01.112 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-04 02:42:01.122 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-04 02:42:01.127 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Found warehouse: Warehouse
+2024-12-04 02:42:01.128 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-04 02:42:01.132 [Cook1] INFO  ru.restaurant.agents.CookAgent - Found equipment: Equipment1
+2024-12-04 02:42:01.133 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-04 02:42:01.135 [Cook2] INFO  ru.restaurant.agents.CookAgent - Found equipment: Equipment1
+2024-12-04 02:42:01.136 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-04 02:43:07.167 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 02:43:07.264 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 1dc77ac7-fa58-457b-96ab-c7c702197a5c создан и отправлен на проверку
+2024-12-04 02:43:07.269 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиенты доступны для tea: 2.0 pcs
+2024-12-04 02:43:07.270 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: INGREDIENTS_AVAILABLE:tea
+2024-12-04 02:43:07.273 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Order 1dc77ac7-fa58-457b-96ab-c7c702197a5c assigned to cook Cook1
+2024-12-04 02:43:07.273 [Cook1] INFO  ru.restaurant.agents.CookAgent - Starting to cook order 1dc77ac7-fa58-457b-96ab-c7c702197a5c
+2024-12-04 02:43:07.274 [Cook1] INFO  ru.restaurant.agents.CookAgent - Requested equipment for order 1dc77ac7-fa58-457b-96ab-c7c702197a5c
+2024-12-04 02:43:07.274 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Starting to use equipment for order 1dc77ac7-fa58-457b-96ab-c7c702197a5c
+2024-12-04 02:43:10.282 [Thread-20] INFO  ru.restaurant.agents.EquipmentAgent - Equipment finished working on order 1dc77ac7-fa58-457b-96ab-c7c702197a5c
+2024-12-04 02:43:10.282 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Cooking order 1dc77ac7-fa58-457b-96ab-c7c702197a5c started
+2024-12-04 02:43:15.298 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Order 1dc77ac7-fa58-457b-96ab-c7c702197a5c is ready
+2024-12-04 02:43:15.298 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_READY:1dc77ac7-fa58-457b-96ab-c7c702197a5c
+2024-12-04 02:43:15.298 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Order 1dc77ac7-fa58-457b-96ab-c7c702197a5c is ready and visitor has been notified
+2024-12-04 02:43:15.299 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Order 1dc77ac7-fa58-457b-96ab-c7c702197a5c is ready for pickup
+2024-12-04 02:43:15.299 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ORDER_RECEIVED:1dc77ac7-fa58-457b-96ab-c7c702197a5c
+2024-12-04 02:43:15.299 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Order 1dc77ac7-fa58-457b-96ab-c7c702197a5c has been received by visitor
+2024-12-04 03:12:54.670 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:12:54.676 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:12:54.682 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найденный склад: Warehouse
+2024-12-04 03:12:54.682 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:12:54.700 [Cook1] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook1@192.168.1.187:1099/JADE готово.
+2024-12-04 03:12:54.702 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:12:54.703 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:12:54.706 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:12:54.707 [Cook2] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook2@192.168.1.187:1099/JADE готово.
+2024-12-04 03:14:07.797 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 03:15:04.776 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:15:04.884 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:15:04.898 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:15:04.903 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:15:04.905 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найденный склад: Warehouse
+2024-12-04 03:15:04.906 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:15:04.908 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:15:04.909 [Cook1] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook1@192.168.1.187:1099/JADE готово.
+2024-12-04 03:15:04.912 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:15:04.913 [Cook2] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook2@192.168.1.187:1099/JADE готово.
+2024-12-04 03:15:34.982 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 03:17:48.786 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:17:48.936 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:17:48.949 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:17:48.952 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:17:48.955 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:17:48.955 [Cook1] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook1@192.168.1.187:1099/JADE готово.
+2024-12-04 03:17:48.958 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найденный склад: Warehouse
+2024-12-04 03:17:48.959 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:17:48.963 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:17:48.963 [Cook2] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook2@192.168.1.187:1099/JADE готово.
+2024-12-04 03:18:48.006 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:18:48.183 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:18:48.207 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:18:48.215 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:18:48.245 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найденный склад: Warehouse
+2024-12-04 03:18:48.245 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:18:48.250 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:18:48.251 [Cook1] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook1@192.168.1.187:1099/JADE готово.
+2024-12-04 03:18:48.255 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:18:48.255 [Cook2] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook2@192.168.1.187:1099/JADE готово.
+2024-12-04 03:20:21.790 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 03:28:05.611 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:28:05.751 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:28:05.757 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:28:05.793 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:28:05.798 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:28:05.803 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:28:05.804 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:28:05.812 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:28:05.812 [Cook1] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook1@192.168.1.187:1099/JADE готово.
+2024-12-04 03:28:05.815 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:28:05.815 [Cook2] INFO  ru.restaurant.agents.CookAgent - Средство для приготовления Cook2@192.168.1.187:1099/JADE готово.
+2024-12-04 03:29:01.269 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:29:01.460 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:29:01.467 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:29:01.499 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:29:01.505 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:29:01.509 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:29:01.510 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:29:01.517 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:29:01.517 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:29:01.520 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:29:01.521 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:31:11.346 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 03:35:14.782 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:35:14.856 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:35:14.862 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:35:14.870 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:35:14.874 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:35:14.881 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:35:14.881 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:35:14.883 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:35:14.884 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:35:14.886 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:35:14.887 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:35:47.220 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-04 03:38:14.363 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:38:14.511 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:38:14.519 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:38:14.549 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:38:14.552 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:38:14.555 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:38:14.556 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:38:14.561 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:38:14.562 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:38:14.564 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:38:14.565 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:38:47.127 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 03:38:47.128 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 03:38:47.128 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 03:38:47.128 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:38:47.128 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 03:38:47.205 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: d01fd48d-4ac9-40b2-92c4-8460a392a81b
+2024-12-04 03:38:47.206 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 03:38:47.206 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 03:38:47.207 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 03:38:47.207 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 03:38:47.207 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 03:38:47.207 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 03:38:47.210 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 03:38:47.211 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: INGREDIENTS_AVAILABLE:чай
+2024-12-04 03:38:47.211 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: INGREDIENTS_AVAILABLE:чай
+2024-12-04 03:42:16.296 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:42:16.373 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:42:16.433 [Supervisor] ERROR r.restaurant.agents.SupervisorAgent - Склад не найден в DF!
+2024-12-04 03:42:16.440 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:42:16.445 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:42:16.470 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:42:16.474 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:42:16.479 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:42:16.479 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:42:16.482 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:42:16.482 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:42:50.643 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 03:42:50.644 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 03:42:50.645 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 03:42:50.645 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = null
+2024-12-04 03:42:50.645 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Склад не найден, пытаемся найти снова...
+2024-12-04 03:42:50.646 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:42:50.658 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:42:50.658 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 03:42:50.722 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: 9b78971a-97c7-4077-8928-89de51167e88
+2024-12-04 03:42:50.723 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 03:42:50.723 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 03:42:50.724 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 03:42:50.724 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 03:42:50.724 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 03:42:50.724 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 03:42:50.726 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 03:42:50.726 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:42:50.727 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:42:50.729 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 9b78971a-97c7-4077-8928-89de51167e88, назначенный для приготовления Cook1
+2024-12-04 03:42:50.730 [Cook1] INFO  ru.restaurant.agents.CookAgent - Начинаем готовить заказ 9b78971a-97c7-4077-8928-89de51167e88
+2024-12-04 03:42:50.730 [Cook1] INFO  ru.restaurant.agents.CookAgent - Требуемое оборудование для заказа 9b78971a-97c7-4077-8928-89de51167e88
+2024-12-04 03:42:50.731 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Начинаем использовать оборудование для заказа 9b78971a-97c7-4077-8928-89de51167e88
+2024-12-04 03:42:53.750 [Thread-20] INFO  ru.restaurant.agents.EquipmentAgent - Оборудование закончено в рабочем состоянии по заказу 9b78971a-97c7-4077-8928-89de51167e88
+2024-12-04 03:47:04.680 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:47:04.738 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:47:04.752 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:47:04.769 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:47:04.769 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:47:04.774 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:47:04.776 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:47:04.780 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:47:04.780 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:47:04.783 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:47:04.783 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:47:36.445 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 03:47:36.445 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 03:47:36.445 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 03:47:36.446 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:47:36.446 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 03:47:36.527 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: 94ff0984-eefc-4695-831d-027dcebefdb3
+2024-12-04 03:47:36.527 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 03:47:36.528 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 03:47:36.529 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 03:47:36.529 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 03:47:36.529 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 03:47:36.529 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 03:47:36.547 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 03:47:36.548 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:47:36.559 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:47:36.579 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 94ff0984-eefc-4695-831d-027dcebefdb3, назначенный для приготовления Cook1
+2024-12-04 03:48:50.925 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:48:51.152 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:48:51.166 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:48:51.172 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:48:51.174 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:48:51.179 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:48:51.180 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:48:51.183 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:48:51.184 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:48:51.190 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:48:51.191 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:49:30.245 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 03:49:30.245 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 03:49:30.246 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 03:49:30.249 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:49:30.251 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 03:49:30.327 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: 2bc062ac-048c-4036-b543-f7730d16342b
+2024-12-04 03:49:30.329 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 03:49:30.333 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 03:49:30.333 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 03:49:30.334 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 03:49:30.335 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 03:49:30.335 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 03:49:30.336 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 03:49:30.337 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:49:30.337 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:49:30.341 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 2bc062ac-048c-4036-b543-f7730d16342b, назначенный для приготовления Cook1
+2024-12-04 03:53:22.712 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:53:22.818 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:53:22.827 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:53:22.850 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:53:22.856 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:53:22.860 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:53:22.861 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:53:22.864 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:53:22.866 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:53:22.872 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:53:22.873 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:53:53.983 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 03:53:53.983 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 03:53:53.983 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 03:53:53.983 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:53:53.984 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 03:53:54.056 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: 2094edfa-be1f-499d-b1b5-0ed7f953eec9
+2024-12-04 03:53:54.056 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 03:53:54.060 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 03:53:54.060 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 03:53:54.061 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 03:53:54.061 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 03:53:54.061 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 03:53:54.062 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 03:53:54.063 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:53:54.064 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:53:54.067 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 2094edfa-be1f-499d-b1b5-0ed7f953eec9 передан повару Cook1
+2024-12-04 03:53:54.067 [Cook1] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ГОТОВИТЬ_ЗАКАЗ:2094edfa-be1f-499d-b1b5-0ed7f953eec9 ===
+2024-12-04 03:53:54.067 [Cook1] INFO  ru.restaurant.agents.CookAgent - Начинаем готовить заказ 2094edfa-be1f-499d-b1b5-0ed7f953eec9
+2024-12-04 03:53:54.067 [Cook1] INFO  ru.restaurant.agents.CookAgent - Запрошено оборудование для заказа 2094edfa-be1f-499d-b1b5-0ed7f953eec9
+2024-12-04 03:55:01.687 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:55:01.791 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:55:01.795 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:55:01.815 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:55:01.820 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:55:01.822 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:55:01.823 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:55:01.825 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:55:01.826 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:55:01.828 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:55:01.829 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:55:29.669 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 03:55:29.670 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 03:55:29.670 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 03:55:29.670 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:55:29.670 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 03:55:29.749 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: 523274b7-94ff-4502-83c4-641a500d8a6d
+2024-12-04 03:55:29.749 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 03:55:29.749 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 03:55:29.750 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 03:55:29.750 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 03:55:29.750 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 03:55:29.750 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 03:55:29.752 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 03:55:29.752 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:55:29.752 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:55:29.756 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 523274b7-94ff-4502-83c4-641a500d8a6d передан повару Cook1
+2024-12-04 03:55:29.756 [Cook1] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ГОТОВИТЬ_ЗАКАЗ:523274b7-94ff-4502-83c4-641a500d8a6d ===
+2024-12-04 03:55:29.760 [Cook1] INFO  ru.restaurant.agents.CookAgent - Начинаем готовить заказ 523274b7-94ff-4502-83c4-641a500d8a6d
+2024-12-04 03:55:29.762 [Cook1] INFO  ru.restaurant.agents.CookAgent - Запрошено оборудование для заказа 523274b7-94ff-4502-83c4-641a500d8a6d
+2024-12-04 03:57:36.373 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 03:57:36.477 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 03:57:36.486 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Warehouse@192.168.1.187:1099/JADE готов.
+2024-12-04 03:57:36.508 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Equipment1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:57:36.519 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Visitor1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:57:36.526 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:57:36.527 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Supervisor@192.168.1.187:1099/JADE готов.
+2024-12-04 03:57:36.532 [Cook1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:57:36.533 [Cook1] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook1@192.168.1.187:1099/JADE готов.
+2024-12-04 03:57:36.538 [Cook2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Equipment1
+2024-12-04 03:57:36.539 [Cook2] INFO  ru.restaurant.agents.CookAgent - Агент повара Cook2@192.168.1.187:1099/JADE готов.
+2024-12-04 03:57:59.696 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 03:57:59.696 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 03:57:59.699 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 03:57:59.699 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Warehouse@192.168.1.187:1099/JADE
+2024-12-04 03:57:59.699 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 03:57:59.768 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: 2c67b399-e58b-4160-b9cb-fc41c6f1858d
+2024-12-04 03:57:59.769 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 03:57:59.769 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 03:57:59.770 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 03:57:59.770 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 03:57:59.770 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 03:57:59.770 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 03:57:59.772 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 03:57:59.773 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:57:59.773 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 03:57:59.780 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 2c67b399-e58b-4160-b9cb-fc41c6f1858d передан повару Cook1
+2024-12-04 03:57:59.780 [Cook1] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ГОТОВИТЬ_ЗАКАЗ:2c67b399-e58b-4160-b9cb-fc41c6f1858d ===
+2024-12-04 03:57:59.780 [Cook1] INFO  ru.restaurant.agents.CookAgent - Начинаем готовить заказ 2c67b399-e58b-4160-b9cb-fc41c6f1858d
+2024-12-04 03:57:59.780 [Cook1] INFO  ru.restaurant.agents.CookAgent - Запрошено оборудование для заказа 2c67b399-e58b-4160-b9cb-fc41c6f1858d
+2024-12-04 03:57:59.780 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - === Оборудование получило сообщение: ИСПОЛЬЗОВАТЬ_ОБОРУДОВАНИЕ:2c67b399-e58b-4160-b9cb-fc41c6f1858d ===
+2024-12-04 03:57:59.781 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Начало использования оборудования для заказа 2c67b399-e58b-4160-b9cb-fc41c6f1858d
+2024-12-04 03:58:02.788 [Cook1] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ОБОРУДОВАНИЕ_ГОТОВО:2c67b399-e58b-4160-b9cb-fc41c6f1858d ===
+2024-12-04 03:58:02.788 [Thread-20] INFO  ru.restaurant.agents.EquipmentAgent - Оборудование завершило работу для заказа 2c67b399-e58b-4160-b9cb-fc41c6f1858d
+2024-12-04 03:58:02.790 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Начало приготовления заказа 2c67b399-e58b-4160-b9cb-fc41c6f1858d
+2024-12-04 03:58:07.800 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Заказ 2c67b399-e58b-4160-b9cb-fc41c6f1858d готов
+2024-12-04 03:58:07.801 [Cook1] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ( (action ( agent-identifier :name Cook1@192.168.1.187:1099/JADE  :addresses (sequence http://DESKTOP-6BDCI7V:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name Руководитель@192.168.1.187:1099/JADE ) (internal-error "Agent not found: getContainerID() failed to find agent Руководитель@192.168.1.187:1099/JADE")) ) ===
+2024-12-04 12:18:35.941 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 12:18:35.952 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 12:18:35.979 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Склад@172.20.10.3:1099/JADE
+2024-12-04 12:18:35.982 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Руководитель@172.20.10.3:1099/JADE готов.
+2024-12-04 12:18:35.990 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Склад@172.20.10.3:1099/JADE готов.
+2024-12-04 12:18:35.998 [Посетитель1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Посетитель1@172.20.10.3:1099/JADE готов.
+2024-12-04 12:18:36.000 [Оборудование1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Оборудование1@172.20.10.3:1099/JADE готов.
+2024-12-04 12:18:36.003 [Повар1] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Оборудование1
+2024-12-04 12:18:36.003 [Повар1] INFO  ru.restaurant.agents.CookAgent - Агент повара Повар1@172.20.10.3:1099/JADE готов.
+2024-12-04 12:18:36.006 [Повар2] INFO  ru.restaurant.agents.CookAgent - Найденное оборудование: Оборудование1
+2024-12-04 12:18:36.007 [Повар2] INFO  ru.restaurant.agents.CookAgent - Агент повара Повар2@172.20.10.3:1099/JADE готов.
+2024-12-04 12:21:21.637 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 12:21:21.638 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 12:21:21.638 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 12:21:21.638 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Склад@172.20.10.3:1099/JADE
+2024-12-04 12:21:21.638 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 12:21:21.767 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:21.767 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 12:21:21.768 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 12:21:21.769 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 12:21:21.769 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 12:21:21.769 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 12:21:21.769 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 12:21:21.771 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 12:21:21.772 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 12:21:21.772 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 12:21:21.775 [Повар2] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ГОТОВИТЬ_ЗАКАЗ:e494f54b-7487-4ae9-b077-236e645386c9 ===
+2024-12-04 12:21:21.776 [Повар2] INFO  ru.restaurant.agents.CookAgent - Начинаем готовить заказ e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:21.775 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ e494f54b-7487-4ae9-b077-236e645386c9 передан повару Повар2
+2024-12-04 12:21:21.777 [Повар2] INFO  ru.restaurant.agents.CookAgent - Запрошено оборудование для заказа e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:21.777 [Оборудование1] INFO  ru.restaurant.agents.EquipmentAgent - === Оборудование получило сообщение: ИСПОЛЬЗОВАТЬ_ОБОРУДОВАНИЕ:e494f54b-7487-4ae9-b077-236e645386c9 ===
+2024-12-04 12:21:21.777 [Оборудование1] INFO  ru.restaurant.agents.EquipmentAgent - Начало использования оборудования для заказа e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:24.787 [Повар2] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ОБОРУДОВАНИЕ_ГОТОВО:e494f54b-7487-4ae9-b077-236e645386c9 ===
+2024-12-04 12:21:24.787 [Thread-20] INFO  ru.restaurant.agents.EquipmentAgent - Оборудование завершило работу для заказа e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:24.789 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Начало приготовления заказа e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:29.792 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Заказ e494f54b-7487-4ae9-b077-236e645386c9 готов
+2024-12-04 12:21:29.792 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ЗАКАЗ_ГОТОВ:e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:29.793 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ e494f54b-7487-4ae9-b077-236e645386c9 готов, и посетитель был уведомлен об этом
+2024-12-04 12:21:29.793 [Посетитель1] INFO  ru.restaurant.agents.VisitorAgent - Заказ e494f54b-7487-4ae9-b077-236e645386c9 готов к отправке
+2024-12-04 12:21:29.794 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ЗАКАЗ_ПОЛУЧЕН:e494f54b-7487-4ae9-b077-236e645386c9
+2024-12-04 12:21:29.794 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ e494f54b-7487-4ae9-b077-236e645386c9 был получен посетителем
+2024-12-04 13:35:20.222 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 13:35:20.262 [Руководитель] ERROR r.restaurant.agents.SupervisorAgent - Склад не найден в DF!
+2024-12-04 13:35:20.264 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Руководитель@172.20.10.3:1099/JADE готов.
+2024-12-04 13:35:20.322 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Склад@172.20.10.3:1099/JADE готов.
+2024-12-04 13:35:20.380 [Повар2] INFO  ru.restaurant.agents.CookAgent - Агент повара Повар2@172.20.10.3:1099/JADE готов.
+2024-12-04 13:35:20.381 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 13:35:20.385 [Повар1] INFO  ru.restaurant.agents.CookAgent - Агент повара Повар1@172.20.10.3:1099/JADE готов.
+2024-12-04 13:35:20.391 [Оборудование1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Оборудование1@172.20.10.3:1099/JADE готов.
+2024-12-04 13:35:20.468 [Посетитель1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Посетитель1@172.20.10.3:1099/JADE готов.
+2024-12-04 13:36:19.138 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 13:36:19.138 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 13:36:19.138 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 13:36:19.138 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = null
+2024-12-04 13:36:19.138 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Склад не найден, пытаемся найти снова...
+2024-12-04 13:36:19.138 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 13:36:19.147 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Склад@172.20.10.3:1099/JADE
+2024-12-04 13:36:19.150 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 13:36:19.243 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: 317de40e-254a-4ddd-b98f-04e4a9c0989f
+2024-12-04 13:36:19.247 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 13:36:19.249 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 13:36:19.250 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 13:36:19.250 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 13:36:19.250 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 13:36:19.251 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 13:36:19.253 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 13:36:19.254 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 13:36:19.254 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 13:36:19.257 [Повар2] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ГОТОВИТЬ_ЗАКАЗ:317de40e-254a-4ddd-b98f-04e4a9c0989f ===
+2024-12-04 13:36:19.258 [Повар2] INFO  ru.restaurant.agents.CookAgent - Начинаем готовить заказ 317de40e-254a-4ddd-b98f-04e4a9c0989f
+2024-12-04 13:36:19.258 [Повар2] ERROR ru.restaurant.agents.CookAgent - Оборудование не найдено!
+2024-12-04 13:36:19.257 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ 317de40e-254a-4ddd-b98f-04e4a9c0989f передан повару Повар2
+2024-12-04 13:36:19.267 [Thread-20] INFO  ru.restaurant.agents.CookAgent - Начало приготовления заказа 317de40e-254a-4ddd-b98f-04e4a9c0989f
+2024-12-04 13:36:24.270 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ЗАКАЗ_ГОТОВ:317de40e-254a-4ddd-b98f-04e4a9c0989f
+2024-12-04 13:36:24.272 [Посетитель1] INFO  ru.restaurant.agents.VisitorAgent - Заказ 317de40e-254a-4ddd-b98f-04e4a9c0989f готов к отправке
+2024-12-04 13:36:24.272 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ 317de40e-254a-4ddd-b98f-04e4a9c0989f готов, и посетитель был уведомлен об этом
+2024-12-04 13:36:24.270 [Thread-20] INFO  ru.restaurant.agents.CookAgent - Заказ 317de40e-254a-4ddd-b98f-04e4a9c0989f готов
+2024-12-04 13:36:24.273 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ЗАКАЗ_ПОЛУЧЕН:317de40e-254a-4ddd-b98f-04e4a9c0989f
+2024-12-04 13:36:24.273 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ 317de40e-254a-4ddd-b98f-04e4a9c0989f был получен посетителем
+2024-12-04 13:39:10.993 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-04 13:39:11.152 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Поиск склада...
+2024-12-04 13:39:11.160 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Агент склада Склад@172.20.10.3:1099/JADE готов.
+2024-12-04 13:39:11.174 [Оборудование1] INFO  ru.restaurant.agents.EquipmentAgent - Агент по оборудованию Оборудование1@172.20.10.3:1099/JADE готов.
+2024-12-04 13:39:11.180 [Посетитель1] INFO  ru.restaurant.agents.VisitorAgent - Агент для посетителей Посетитель1@172.20.10.3:1099/JADE готов.
+2024-12-04 13:39:11.184 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Найден склад: Склад@172.20.10.3:1099/JADE
+2024-12-04 13:39:11.185 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Агент руководителя Руководитель@172.20.10.3:1099/JADE готов.
+2024-12-04 13:39:11.189 [Повар1] INFO  ru.restaurant.agents.CookAgent - Найдено оборудование: Оборудование1
+2024-12-04 13:39:11.190 [Повар1] INFO  ru.restaurant.agents.CookAgent - Агент повара Повар1@172.20.10.3:1099/JADE готов.
+2024-12-04 13:39:11.192 [Повар2] INFO  ru.restaurant.agents.CookAgent - Найдено оборудование: Оборудование1
+2024-12-04 13:39:11.192 [Повар2] INFO  ru.restaurant.agents.CookAgent - Агент повара Повар2@172.20.10.3:1099/JADE готов.
+2024-12-04 13:39:33.000 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: НОВЫЙ_ЗАКАЗ:чай:2
+2024-12-04 13:39:33.001 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - === Начало обработки нового заказа ===
+2024-12-04 13:39:33.002 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Разбор сообщения: товар = чай, количество = 2
+2024-12-04 13:39:33.002 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Проверка состояния склада: warehouseAID = Склад@172.20.10.3:1099/JADE
+2024-12-04 13:39:33.002 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Создание нового заказа...
+2024-12-04 13:39:33.076 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ создан с ID: f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:33.076 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Подготовка запроса на склад...
+2024-12-04 13:39:33.078 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Отправка запроса на склад: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2
+2024-12-04 13:39:33.078 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Запрос отправлен на склад
+2024-12-04 13:39:33.078 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - === Склад получил сообщение: ПРОВЕРКА_ИНГРЕДИЕНТОВ:чай:2 ===
+2024-12-04 13:39:33.078 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Начинаем проверку ингредиентов
+2024-12-04 13:39:33.079 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Проверка наличия ингредиента чай в количестве 2.0
+2024-12-04 13:39:33.084 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Ингредиент чай доступен в количестве 2.0 штук
+2024-12-04 13:39:33.085 [Склад] INFO  ru.restaurant.agents.WarehouseAgent - Отправлен ответ: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 13:39:33.085 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ИНГРЕДИЕНТЫ_ДОСТУПНЫ:чай
+2024-12-04 13:39:33.093 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ f39853b6-fb81-42b4-ad5f-cc52b0a61cee передан повару Повар2
+2024-12-04 13:39:33.093 [Повар2] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ГОТОВИТЬ_ЗАКАЗ:f39853b6-fb81-42b4-ad5f-cc52b0a61cee ===
+2024-12-04 13:39:33.093 [Повар2] INFO  ru.restaurant.agents.CookAgent - Начинаем готовить заказ f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:33.094 [Повар2] INFO  ru.restaurant.agents.CookAgent - Запрошено оборудование для заказа f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:33.099 [Оборудование1] INFO  ru.restaurant.agents.EquipmentAgent - === Оборудование получило сообщение: ИСПОЛЬЗОВАТЬ_ОБОРУДОВАНИЕ:f39853b6-fb81-42b4-ad5f-cc52b0a61cee ===
+2024-12-04 13:39:33.100 [Оборудование1] INFO  ru.restaurant.agents.EquipmentAgent - Начало использования оборудования для заказа f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:36.115 [Thread-20] INFO  ru.restaurant.agents.EquipmentAgent - Оборудование завершило работу для заказа f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:36.115 [Повар2] INFO  ru.restaurant.agents.CookAgent - === Повар получил сообщение: ОБОРУДОВАНИЕ_ГОТОВО:f39853b6-fb81-42b4-ad5f-cc52b0a61cee ===
+2024-12-04 13:39:36.117 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Начало приготовления заказа f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:41.132 [Thread-21] INFO  ru.restaurant.agents.CookAgent - Заказ f39853b6-fb81-42b4-ad5f-cc52b0a61cee готов
+2024-12-04 13:39:41.132 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ЗАКАЗ_ГОТОВ:f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:41.133 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ f39853b6-fb81-42b4-ad5f-cc52b0a61cee готов, и посетитель был уведомлен об этом
+2024-12-04 13:39:41.133 [Посетитель1] INFO  ru.restaurant.agents.VisitorAgent - Заказ f39853b6-fb81-42b4-ad5f-cc52b0a61cee готов к отправке
+2024-12-04 13:39:41.134 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ЗАКАЗ_ПОЛУЧЕН:f39853b6-fb81-42b4-ad5f-cc52b0a61cee
+2024-12-04 13:39:41.134 [Руководитель] INFO  r.restaurant.agents.SupervisorAgent - Заказ f39853b6-fb81-42b4-ad5f-cc52b0a61cee был получен посетителем

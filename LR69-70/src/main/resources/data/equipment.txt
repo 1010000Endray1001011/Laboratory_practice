@@ -1,0 +1,25 @@
+{
+  "equipment": [
+    {
+      "equip_id": 1,
+      "equip_type": 2,
+      "equip_name": "LIDER 250",
+      "equip_active": true,
+      "maintenance_date": "2024-01-15T00:00:00"
+    },
+    {
+      "equip_id": 2,
+      "equip_type": 2,
+      "equip_name": "LIDER 150",
+      "equip_active": false,
+      "maintenance_date": "2024-02-01T00:00:00"
+    },
+    {
+      "equip_id": 3,
+      "equip_type": 25,
+      "equip_name": "DAZHENG LOOKYAMI",
+      "equip_active": true,
+      "maintenance_date": "2024-01-20T00:00:00"
+    }
+  ]
+}

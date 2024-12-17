@@ -1,0 +1,15 @@
+{
+  "products": [
+    {
+      "prod_item_id": 191,
+      "prod_item_type": 11,
+      "prod_item_name": "Frozen chicken",
+      "prod_item_company": "AO OMPK",
+      "prod_item_unit": "kilo",
+      "prod_item_quantity": 15.3,
+      "prod_item_cost": 190,
+      "prod_item_delivered": "2023-01-12T08:12:36",
+      "prod_item_valid_until": "2023-12-31T23:59:59"
+    }
+  ]
+}

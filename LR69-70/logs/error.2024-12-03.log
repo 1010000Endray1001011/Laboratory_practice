@@ -1,0 +1,15 @@
+2024-12-03 16:35:21.615 [main] ERROR ru.restaurant.RestaurantApplication - Error starting the system
+jade.wrapper.StaleProxyException: Class ru.restaurant.agents.SupervisorAgent for agent ( agent-identifier :name Supervisor@192.168.1.187:1099/JADE ) cannot be instantiated - Caused by:  java.lang.InstantiationException
+	at jade.wrapper.ContainerController.createNewAgent(ContainerController.java:140)
+	at ru.restaurant.RestaurantApplication.main(RestaurantApplication.java:40)
+2024-12-03 16:36:54.252 [Supervisor] ERROR r.restaurant.agents.SupervisorAgent - Ошибка регистрации в DF
+jade.domain.FIPAAgentManagement.FailureException: ((action ( agent-identifier :name df@192.168.1.187:1099/JADE  :addresses (sequence http://DESKTOP-6BDCI7V:7778/acc )) (register (df-agent-description :name ( agent-identifier :name Supervisor@192.168.1.187:1099/JADE  :addresses (sequence http://DESKTOP-6BDCI7V:7778/acc )) :services (set (service-description :name Supervisor :type supervisor))))) already-registered)
+	at jade.domain.FIPAService.doFipaRequestClient(FIPAService.java:172)
+	at jade.domain.FIPAService.doFipaRequestClient(FIPAService.java:102)
+	at jade.domain.DFService.register(DFService.java:166)
+	at jade.domain.DFService.register(DFService.java:180)
+	at ru.restaurant.agents.SupervisorAgent.registerInDF(SupervisorAgent.java:56)
+	at ru.restaurant.agents.SupervisorAgent.setup(SupervisorAgent.java:29)
+	at jade.core.Agent$ActiveLifeCycle.init(Agent.java:1641)
+	at jade.core.Agent.run(Agent.java:1587)
+	at java.base/java.lang.Thread.run(Thread.java:1623)

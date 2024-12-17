@@ -1,0 +1,108 @@
+2024-12-03 01:33:02.786 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:34:28.267 [main] INFO  ru.restaurant.RestaurantApplication - Restaurant Management System started successfully
+2024-12-03 01:34:28.303 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:34:28.309 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:34:28.324 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:34:28.334 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:36:14.625 [main] INFO  ru.restaurant.RestaurantApplication - Restaurant Management System started successfully
+2024-12-03 01:36:14.648 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:36:14.685 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:36:14.693 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:36:14.708 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:36:14.714 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:36:14.717 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:43:41.124 [main] INFO  ru.restaurant.RestaurantApplication - Restaurant Management System started successfully
+2024-12-03 01:43:41.155 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:43:41.194 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:43:41.211 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:43:41.230 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:43:41.240 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:43:41.258 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:49:35.056 [Visitor2] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor2@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:53:21.896 [main] INFO  ru.restaurant.RestaurantApplication - Restaurant Management System started successfully
+2024-12-03 01:53:21.929 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:53:21.944 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:53:21.969 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:53:21.984 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:53:21.987 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 01:53:21.990 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:21:33.004 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:21:33.064 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:21:33.087 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:21:33.103 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:21:33.109 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:21:33.115 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-03 02:21:33.119 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:22:16.988 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-03 02:22:17.022 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:22:17.034 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:22:17.050 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:22:17.054 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:22:17.063 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 02:22:17.066 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:20:10.445 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-03 16:20:10.530 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:20:10.545 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:20:10.593 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:20:10.598 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:20:10.600 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:20:10.604 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:35:21.588 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:35:21.615 [main] ERROR ru.restaurant.RestaurantApplication - Error starting the system
+jade.wrapper.StaleProxyException: Class ru.restaurant.agents.SupervisorAgent for agent ( agent-identifier :name Supervisor@192.168.1.187:1099/JADE ) cannot be instantiated - Caused by:  java.lang.InstantiationException
+	at jade.wrapper.ContainerController.createNewAgent(ContainerController.java:140)
+	at ru.restaurant.RestaurantApplication.main(RestaurantApplication.java:40)
+2024-12-03 16:36:54.185 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-03 16:36:54.183 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:36:54.221 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:36:54.232 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:36:54.238 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:36:54.246 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:36:54.252 [Supervisor] ERROR r.restaurant.agents.SupervisorAgent - Ошибка регистрации в DF
+jade.domain.FIPAAgentManagement.FailureException: ((action ( agent-identifier :name df@192.168.1.187:1099/JADE  :addresses (sequence http://DESKTOP-6BDCI7V:7778/acc )) (register (df-agent-description :name ( agent-identifier :name Supervisor@192.168.1.187:1099/JADE  :addresses (sequence http://DESKTOP-6BDCI7V:7778/acc )) :services (set (service-description :name Supervisor :type supervisor))))) already-registered)
+	at jade.domain.FIPAService.doFipaRequestClient(FIPAService.java:172)
+	at jade.domain.FIPAService.doFipaRequestClient(FIPAService.java:102)
+	at jade.domain.DFService.register(DFService.java:166)
+	at jade.domain.DFService.register(DFService.java:180)
+	at ru.restaurant.agents.SupervisorAgent.registerInDF(SupervisorAgent.java:56)
+	at ru.restaurant.agents.SupervisorAgent.setup(SupervisorAgent.java:29)
+	at jade.core.Agent$ActiveLifeCycle.init(Agent.java:1641)
+	at jade.core.Agent.run(Agent.java:1587)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-12-03 16:36:54.273 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:38:27.583 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE terminating.
+2024-12-03 16:38:33.865 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:38:33.869 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-03 16:38:33.916 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:38:33.933 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:38:33.943 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:38:33.947 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:38:33.979 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:40:12.034 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-03 16:40:12.035 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Обработка нового заказа от Visitor1
+2024-12-03 16:40:12.110 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ d1748c0b-1e7a-4445-a874-5c9945a006d1 создан и отправлен на проверку
+2024-12-03 16:46:43.622 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE terminating.
+2024-12-03 16:46:49.293 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-03 16:46:49.295 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:46:49.349 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:46:49.354 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:46:49.364 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:46:49.372 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:46:49.393 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:48:50.695 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-03 16:48:50.696 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Обработка нового заказа от Visitor1
+2024-12-03 16:48:50.770 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ 54a13e2f-adb8-4d52-a12f-38627373071a создан и отправлен на проверку
+2024-12-03 16:50:16.765 [Warehouse@192.168.1.187:1099/JADE] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE@192.168.1.187:1099/JADE is ready.
+2024-12-03 16:51:12.176 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: NEW_ORDER:tea:2
+2024-12-03 16:51:12.177 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Обработка нового заказа от Visitor1
+2024-12-03 16:51:12.179 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Заказ f91c9085-b221-42db-9c7c-e4c3df2794a1 создан и отправлен на проверку
+2024-12-03 16:51:12.182 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Получено сообщение: ( (action ( agent-identifier :name Supervisor@192.168.1.187:1099/JADE  :addresses (sequence http://DESKTOP-6BDCI7V:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name Warehouse@192.168.1.187:1099/JADE  :addresses (sequence http://DESKTOP-6BDCI7V:7778/acc )) (internal-error "Agent not found: getContainerID() failed to find agent Warehouse@192.168.1.187:1099/JADE")) )
+2024-12-03 16:56:44.851 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE terminating.
+2024-12-03 17:07:47.658 [Visitor1] INFO  ru.restaurant.agents.VisitorAgent - Visitor Agent Visitor1@192.168.1.187:1099/JADE is ready.
+2024-12-03 17:07:47.788 [main] INFO  ru.restaurant.RestaurantApplication - Успешно запущена система управления рестораном
+2024-12-03 17:07:47.795 [Cook1] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook1@192.168.1.187:1099/JADE is ready.
+2024-12-03 17:07:47.804 [Cook2] INFO  ru.restaurant.agents.CookAgent - Cook Agent Cook2@192.168.1.187:1099/JADE is ready.
+2024-12-03 17:07:47.822 [Warehouse] INFO  ru.restaurant.agents.WarehouseAgent - Warehouse Agent Warehouse@192.168.1.187:1099/JADE is ready.
+2024-12-03 17:07:47.824 [Equipment1] INFO  ru.restaurant.agents.EquipmentAgent - Equipment Agent Equipment1@192.168.1.187:1099/JADE is ready.
+2024-12-03 17:07:47.841 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE is ready.
+2024-12-03 17:26:28.499 [Supervisor] INFO  r.restaurant.agents.SupervisorAgent - Supervisor Agent Supervisor@192.168.1.187:1099/JADE terminating.
